@@ -2,7 +2,7 @@
 import MySQLdb
 import datetime
 # Open database connection
-db = MySQLdb.connect("localhost","otrs","BN#2018PL","otrs" )
+db = MySQLdb.connect("localhost","****","*****","***" )
 # prepare a cursor object using cursor() method
 cursor = db.cursor()
 sql = "SELECT * FROM `ticket_number_counter` ORDER BY `create_time` DESC"
